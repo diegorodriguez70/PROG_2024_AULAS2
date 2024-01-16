@@ -12,7 +12,7 @@ public class Start {
 		Alumnos alumno2 =new Alumnos();
 		alumno2.setAnio(2002);
 		alumno2.setCod_alumno(2);
-		alumno2.setNombre("Paco");
+		alumno2.setNombre("Lucia");
 		aula1.AddAllumno(alumno2);
 		System.out.println(aula1);
 		

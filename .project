@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>readme.md</name>
+			<type>1</type>
+			<location>F:/AulasEjercicio2/readme.md</location>
+		</link>
+	</linkedResources>
 </projectDescription>

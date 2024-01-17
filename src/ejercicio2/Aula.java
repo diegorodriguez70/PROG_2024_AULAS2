@@ -9,13 +9,15 @@ public class Aula {
 
 	public Aula(int cantidad) {
 		this.capacidad = new Alumnos[cantidad];
-		cuantosHay=0;
+		cuantosHay = 0;
 	}
 
 	public void AddAllumno(Alumnos alumno) {
-
-		capacidad[cuantosHay] = alumno;
-		cuantosHay++;
+		if (cuantosHay < capacidad.length) {
+			capacidad[cuantosHay] = alumno;
+			cuantosHay++;
+		}
+		System.out.println(this);
 	}
 
 	public String toString() {
